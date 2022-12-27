@@ -35,7 +35,7 @@ void setup() {
   //digitalWrite(dirPInZ, LOW);
 }
 void loop() {
-  Serial.println(" NHAP : SIZ_POS_X(O) (EX: 3_4_X) ");
+  Serial.println(" NHAP : SIZ_POS_X(O) (EX: 3_04_X) ");
   while (Serial.available()==0);
   input=Serial.readString();
   siz[0]=input[0];
